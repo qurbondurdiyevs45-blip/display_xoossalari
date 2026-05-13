@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Darsligi</title>
+		<style>
+			h1 {
+				background-color: chartreuse;
+			}
+			#p1 {
+     background-color: blueviolet;
+		 display: inline;
+			}
+			span {
+				background-color: blue;
+				color: aliceblue;
+				display: block;
+
+			}
+			.bir { 
+				background-color: chartreuse;
+				display: block;
+				
+			}
+			.qwerty {
+				background-color: darkorange;
+				
+				display: inline;
+			}
+			.p3 {
+				background-color: crimson;
+				display: inline-block;
+			}
+     .p4 {
+    background-color: darkgreen;
+    display: none;
+		 }
+		 .P5 {
+			background-color: crimson;
+			text-align: center;
+
+		 }
+		 .p6 {
+			background-color: indianred;
+	    text-align: left;
+
+		 }
+		 .p7 {
+			background-color: cornflowerblue;
+			text-align: right;
+		 }
+		 .p8 {
+			background-color: cornsilk;
+			text-align: justify;
+		 }
+		 .div1 {
+			background-color: yellow;
+			display:inline-block;
+			padding: 10px;
+			margin: 6px;
+
+
+		 }
+.div2 {
+			background-color: rgb(0, 255, 17);
+			display:inline-block;
+			padding: 10px;
+			margin: 6px;
+		 }
+.div3 {
+			background-color: rgb(0, 17, 255);
+			display:inline-block;
+			padding: 10px;
+			margin: 6px;
+		 }
+		 section {
+			vertical-align: baseline;
+			padding: 15px;
+			border: 12px dashed;
+		 }
+
+
+			
+		</style>
+   
+</head>
+<body>
+
+    <h2>"Display" xossasi</h2>
+    <p><strong>Block element</strong> - ota-ona (parent) elementni to'liq kengligiga yoyiladi va har doim yangi qatordan boshlanadi. div, h1, h2, ... h6, ul, li va yana bir qator taglar block element yaratadi</p>
+    <p><strong>Inline element</strong> - faqatgina o'zini kontenti uchun yetarli bo'ladigan kenglikga ega bo'ladi va yangi qatordan boshlanmaydi, aksincha yonma-yon joylashadi. span, a va yana bir qator taglar inline element yaratadi</p>
+    
+    <p><strong>Display</strong> - elementimizni veb sahifamizda qanday ko'rsatilishini belgilaydi</p>
+    <ul>
+        <li><strong>display: block;</strong> - element block elementga aylanadi</li>
+        <li><strong>display: inline;</strong> - element inline elementga aylanadi</li>
+        <li><strong>display: none;</strong> - elementni veb sahifasida ko'rsatilmasligini ta'minlaydi</li>
+        <li><strong>inline-block</strong> - element inline elementga aylanadi, lekin block elementning xususiyatlariga ega bo'ladi</li>
+    </ul>
+
+    <br>
+
+    <h1>Text-align, Vertical Align va Float xossalari</h1>
+    <p><strong>Text-align</strong> - element ichidagi matnni gorizontal ravishda hizalaydi</p>
+    <ul>
+        <li><strong>Left</strong> - matnni chap tarafga tekislaydi</li>
+        <li><strong>Center</strong> - matnni markazga tekislaydi</li>
+        <li><strong>Right</strong> - matnni o'ng tarafga tekislaydi</li>
+        <li><strong>Justify</strong> - matnni ikki tomonlama tekislaydi</li>
+    </ul>
+
+    <p><strong>Vertical align</strong> - element ichidagi matnni vertikal ravishda hizalaydi</p>
+    <ul>
+        <li><strong>Top</strong> - matnni elementning yuqori qismiga tekislaydi</li>
+        <li><strong>Middle</strong> - matnni elementning o'rtasiga tekislaydi</li>
+        <li><strong>Bottom</strong> - matnni elementning pastki qismiga tekislaydi</li>
+        <li><strong>Baseline</strong> - matnni elementning asos chizig'iga tekislaydi</li>
+    </ul>
+
+    <p><strong>Float</strong> - elementni o'ng yoki chapga suzib o'tkazadi, bu esa boshqa elementlarning</p>
+    <ul>
+        <li><strong>Left</strong> - elementni chapga suzib o'tkazadi</li>
+        <li><strong>Right</strong> - elementni o'ngga suzib o'tkazadi</li>
+        <li><strong>None</strong> - elementni suzib o'tkazmaydi, bu uning normal oqimda qolishini ta'minlaydi</li>
+    </ul>
+
+
+<p class="bir">
+	Lorem ipsum dolor sit amet consectetur adipisicing elit. Error, similique nulla reprehenderit eos nihil natus voluptatibus temporibus facilis ad, ipsum beatae blanditiis totam unde fugit necessitatibus repudiandae dolorem, ea excepturi.
+	Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam nesciunt exercitationem rem fugit aliquid inventore eum aspernatur autem cumque debitis totam, tempora assumenda itaque dicta laboriosam, amet dolorem saepe eos? Eius expedita voluptate deleniti? Earum exercitationem qui accusamus aliquam, impedit minima, officia ratione odit sint, explicabo quasi quia maiores nihil cupiditate atque reprehenderit dolores harum! Molestias perferendis porro libero, laborum cum quia nihil itaque temporibus nulla! Cupiditate.
+</p>
+<p class="qwerty">
+	Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam porro consequatur rem excepturi, officiis ullam repellat illo. Perferendis quisquam ullam, cum, consequuntur exercitationem facere accusamus doloremque vel libero quo vitae earum quam necessitatibus hic non iure itaque magnam id animi sunt et. Accusamus at reprehenderit praesentium quidem ex voluptate enim incidunt neque modi! Laudantium, ut voluptates repellendus corrupti iusto placeat nemo ea quam tempora blanditiis distinctio sunt doloremque. Ducimus alias aliquid quae maxime, iusto fuga dolores nihil provident autem, commodi laudantium a tempora sunt distinctio officia laboriosam omnis beatae inventore voluptates fugit quo voluptas. Quos officiis unde quia dolor tenetur vel, beatae repudiandae ea possimus quibusdam id atque exercitationem modi vero natus voluptates hic deserunt voluptatem? Alias libero, adipisci non officiis recusandae sit qui vitae ducimus aperiam ipsum? Ut molestias ab praesentium dolores aut, consequatur, laudantium enim rem delectus nam consequuntur, optio ex eaque placeat? Soluta explicabo qui totam esse fuga consequuntur sit eius veritatis debitis recusandae, cumque adipisci ea nemo quibusdam, dolorem, laudantium eveniet a quae rem asperiores aspernatur distinctio. Repellat saepe necessitatibus ullam error quas totam tempore, voluptatum iure neque, deserunt ab soluta. Ullam quasi quas deserunt repellendus veritatis vitae voluptates perferendis minus facere? Totam magnam, aut nam, autem reiciendis odio deleniti ex pariatur dolorem voluptatem rerum molestias quidem tempora minima delectus perspiciatis atque dolores sapiente quod. Tempora sapiente reiciendis ducimus dolores nostrum pariatur veritatis corporis in quia minus harum vero, eveniet consequuntur expedita quisquam saepe minima eos fugit accusantium? Voluptate dolorum quaerat, similique error nihil excepturi asperiores veniam, autem laboriosam et maxime mollitia quas ipsum aliquam animi earum magnam deleniti beatae cum quae eveniet hic! Ab consequatur et minima ratione animi id voluptas doloremque nesciunt impedit suscipit nulla, eos veritatis obcaecati ut quidem eius itaque explicabo placeat officia voluptates sequi tempora! Perferendis ut veniam explicabo similique iste, molestias nihil ducimus nostrum quam maxime architecto voluptatem et illo quibusdam culpa unde fugiat eveniet voluptatibus earum vitae! Repellat sapiente nostrum tenetur placeat, reiciendis esse impedit cum quod veniam nobis fugiat sit pariatur eos dolor porro expedita necessitatibus sunt nihil in nam deserunt labore consequatur neque! Libero, tenetur repellendus alias in non et modi consectetur! Deserunt beatae id est ullam nobis iusto fugit doloribus dignissimos nesciunt quasi ex aliquid nulla fuga, repellat, architecto enim hic? Maxime animi aperiam eius magni, commodi itaque quod ex maiores voluptatem eveniet aut omnis nobis eum facere et molestiae corporis obcaecati, nam, natus in velit.
+</p>
+<p class="p3">
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, velit at ipsum, aspernatur quis voluptate ducimus eum in nesciunt veritatis aperiam non a laboriosam nemo sunt unde ratione ipsam porro.
+</p>
+<p class="p4">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda aut totam molestiae voluptatibus quis tenetur neque esse enim cupiditate culpa, voluptate hic deleniti possimus vel facere harum inventore dicta asperiores ea temporibus sunt doloribus officiis magnam nostrum? Quaerat, laudantium magni perferendis, nihil dolorum ducimus omnis earum illum eveniet quam voluptas?
+</p>
+<p class="P5">
+	Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium non provident, aliquid cum sed velit harum debitis numquam in architecto, officia quo totam eum ipsam soluta exercitationem quisquam cumque rerum autem, aliquam quae iure. Nesciunt vitae dolores culpa rerum quo amet ullam soluta consectetur dolore?
+</p>
+<p class="p6">
+Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit eaque non reiciendis harum perspiciatis, voluptatibus aut minima eos debitis temporibus commodi deleniti quasi maiores necessitatibus, modi reprehenderit adipisci dolores laboriosam rem expedita odio nesciunt dicta. Labore harum, cumque amet excepturi nobis animi magnam commodi, quidem molestiae modi quae debitis tempore repellat suscipit id ducimus repudiandae dolorem officia eos, illo quia. Rerum excepturi tempora quas corrupti aliquam modi, accusamus optio.
+</p>
+<p class="p7">
+	Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates animi laboriosam at impedit alias consectetur aspernatur reiciendis inventore harum magni. Iusto neque voluptatibus officiis et tenetur, minus debitis adipisci. Adipisci, tenetur consequatur, maiores temporibus laudantium nihil facere mollitia doloremque soluta nesciunt sed, inventore repellat quis ipsa dignissimos? Ducimus sequi ea magnam! Magni reiciendis eveniet molestiae magnam ipsum vero nobis explicabo veritatis eligendi numquam porro, exercitationem ad odit libero aliquid dolores in! Vitae quasi error ab, ea fugit amet sint harum obcaecati dolores nulla nam repellat. Voluptatem velit vel consequuntur repellat!
+</p>
+<p class="p8">
+	Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci culpa saepe ratione accusantium voluptates alias quisquam soluta qui optio libero. Error impedit incidunt amet provident aut consectetur eaque. Eaque minus sint dicta perferendis omnis consectetur pariatur ea eos est doloremque nam magnam modi, qui in? Autem pariatur magnam deleniti ex reiciendis sunt enim commodi repellat ratione dignissimos, quos itaque eveniet doloribus dolores totam reprehenderit ipsa sapiente debitis quod porro consequatur.
+</p>
+<section>
+	<div class="div1">
+		<p >
+			SARIQ RANGLI MATN
+		</p>
+	</div>
+	<div>
+		<p class="div2">
+			Ko'k rangli matn
+		</p>
+	</div>
+	<div class="div3">
+		<p>
+			Yashil rangli matn
+		</p>
+	</div>
+</section>
+
+
+
+</body>
+</html>
